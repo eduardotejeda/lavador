@@ -19,8 +19,8 @@ function Lavador() {
     <img src={imgPerfil} className='perfil' alt='imagend de perfil'/>
     <h1>Frankely </h1>
     <h2>Total car washed: {count}</h2>
-    <button onClick={handleClick}>Add car</button>
-    <button onClick={handleRemoveClick}>Remove car</button>
+    <button onClick={handleClick}>Add +1 car</button>
+    <button onClick={handleRemoveClick}>Remove -1 car</button>
     </div>
 }
 
